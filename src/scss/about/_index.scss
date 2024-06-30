@@ -1,0 +1,88 @@
+@import "../config/variable.module.scss";
+
+.about-page {
+    .about-banner {
+        background-image: url(../../assets/images/about-banner-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 350px;
+        position: relative;
+        padding-top: 200px;
+
+        .breadcrumb {
+            justify-content: center;
+
+            .breadcrumb-item+.breadcrumb-item::before {
+                color: rgb(255 255 255);
+                margin-top: 3px;
+            }
+
+            .breadcrumb-item {
+                a {
+                    color: $white;
+                    text-decoration: none;
+                    font-size: 1rem;
+                }
+
+                &.active {
+                    a {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .sport-img {
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    .sport-img-txt {
+        background-color: $white;
+        box-shadow: 0 0px 29px 0 rgba(0, 0, 0, 0.15);
+        padding: 30px;
+        border-radius: 10px;
+
+        h3 {
+            color: $primary;
+        }
+
+        h2 {
+            span {
+                color: $primary;
+            }
+        }
+    }
+    .do-your-best-section{
+        .best-card-wrapper{
+            .round-circle{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                border: 1px solid transparent;
+                background-color: $primary;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    color: $white;
+                }
+                transition: 0.3s ease;
+            }
+            &:hover{
+                .round-circle{
+                    border: 1px solid $primary;
+                    background-color: transparent;
+                    transition: 0.3s ease;
+                    h2{
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}
