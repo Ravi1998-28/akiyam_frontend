@@ -1,0 +1,40 @@
+@import "../config/variable.module.scss";
+
+
+.sclub_copyright_wrapper {
+    width: 100%;
+    background-color: #20272f;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    .paragraph {
+        font-size: 18px;
+        margin-bottom: 0px;
+        color: #777777;
+    }
+
+    .policy_term {
+        padding: 0;
+        text-align: right;
+        margin: 0;
+
+        li {
+            list-style: none;
+            display: inline-block;
+            padding: 0 5px;
+            a{
+                color: #777777;
+                font-size: 16px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+.sclub_footer_wrapper {
+    width: 100%;
+    float: left;
+    background-color: #27323e;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    color: $white;
+}

@@ -1,0 +1,51 @@
+@import "../config/variable.module.scss";
+
+.header {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+
+    .navbar-brand {
+        padding: 0px;
+        font-size: 30px;
+        color: $white;
+        background-color: $primary;
+        font-weight: 700;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        gap: 10px;
+        margin-right: 50px;
+    }
+
+    .navbar {
+        padding: 0px;
+        box-shadow: 0 12px 29px 0 rgba(0, 0, 0, 0.30) !important;
+        background: rgba(0, 0, 0, 0.74) !important;
+
+        .navbar-nav {
+            a {
+                color: $white;
+                font-size: 16px;
+                padding: 10px 30px;
+            }
+        }
+
+        .search {
+            height: 80px;
+            width: 55px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $primary;
+
+            img {
+                width: 30px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,19 @@
+@import "./variable.module";
+
+.btn-transparent {
+    background-color: transparent;
+    border: none;
+    img {
+        padding-right: 0px !important;
+    }
+}
+.disabled-button{
+    background: $gray-600;
+    border: 1px solid $gray-600;
+    border-radius: 4px;
+    color: $gray-800;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 15px;
+    height: 46px;
+}    
