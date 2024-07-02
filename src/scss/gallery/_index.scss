@@ -1,0 +1,13 @@
+@import "../config/variable.module.scss";
+
+.gallery-page {
+    .gallery-banner {
+        background-image: url(../../assets/images/about-banner-img.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 350px;
+        position: relative;
+        padding-top: 200px;
+    }
+}

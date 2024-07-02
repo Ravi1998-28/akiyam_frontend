@@ -1,5 +1,101 @@
 @import "./variable.module";
-.text-lightblue{
+
+.text-lightblue {
     color: $primary;
 }
- 
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.our-gallery{
+    .sport_section {
+        width: 100%;
+        transition: 03s;
+        line-height: 0;
+        margin-bottom: 20px;
+
+        .sports_image {
+            overflow: hidden;
+        }
+
+        .sports_hover {
+            position: relative;
+            border-radius: 10px;
+
+        }
+
+        .sports_image {
+            position: relative;
+            transition: all .5s ease-in;
+            border-radius: 10px;
+        }
+
+        .card__image {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .sport_overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            visibility: none;
+            transition: .5s ease;
+            background-color: rgba(0, 0, 0, 0.67);
+            border-radius: 10px;
+        }
+
+        .sports_image:hover .sport_overlay {
+            opacity: 1;
+        }
+
+        .sports_icon {
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    }
+}
+.breadcrumb {
+    justify-content: center;
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: rgb(255 255 255);
+        margin-top: 3px;
+    }
+
+    .breadcrumb-item {
+        a {
+            color: $white;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        &.active {
+            a {
+                color: $primary;
+            }
+        }
+    }
+}

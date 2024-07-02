@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Navbar, Nav, Image } from 'react-bootstrap';
+import { Container, Navbar, Nav, Image, NavDropdown } from 'react-bootstrap';
 import logo from "../../assets/images/logo.png"
 import search from "../../assets/images/search.svg"
 const Header = () => {
@@ -16,11 +16,16 @@ const Header = () => {
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/gallery">Gallery</Nav.Link>
+              <NavDropdown title="Gallery" id="basic-nav-dropdown">
+                <NavDropdown.Item href="our-gallery">Our Gallery</NavDropdown.Item>
+                <NavDropdown.Item href="/our-support-gallery">
+                 Sports Gallery
+                </NavDropdown.Item>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
           <div className='search'>
-            <img src={search} alt="sport"/>
+            <img src={search} alt="sport" />
           </div>
         </Navbar>
 
