@@ -19,6 +19,9 @@
         padding: 0 10px;
         gap: 10px;
         margin-right: 50px;
+        @media(max-width:$sm){
+            margin-right: 0px;
+        }
     }
 
     .navbar {
@@ -46,6 +49,20 @@
                 width: 30px;
             }
         }
-
+        .nav-item{
+            &.dropdown{
+                .dropdown-menu {
+                    background: $black;
+                    .dropdown-item{
+                        border-bottom: 1px solid $gray-800;
+                    }
+                    .dropdown-item:hover, .dropdown-item:focus {
+                        color: var(--bs-dropdown-link-hover-color);
+                        background-color: $white;
+                        border-bottom: 1px solid $gray-800;
+                    }
+                }
+            }
+        }
     }
 }
