@@ -8,6 +8,15 @@
     overflow: hidden;
     background-position: center;
 
+    h1,
+    .look-wrap,
+    .heading1 {
+        @media(max-width:1200px) {
+            color: #85f1ff !important;
+        }
+
+    }
+
     .sclub_slide {
         padding-top: 300px;
         padding-bottom: 100px;
@@ -177,73 +186,6 @@
 
 }
 
-.ourGallery-section {
-    .sport_section {
-        width: 100%;
-        transition: 03s;
-        line-height: 0;
-        margin-bottom: 20px;
-
-        .sports_image {
-            overflow: hidden;
-        }
-
-        .sports_hover {
-            position: relative;
-            border-radius: 10px;
-
-        }
-
-
-        .sports_image {
-            position: relative;
-            transition: all .5s ease-in;
-            border-radius: 10px;
-        }
-
-
-        .card__image {
-            display: block;
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .sport_overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            visibility: none;
-            transition: .5s ease;
-            background-color: rgba(0, 0, 0, 0.67);
-            border-radius: 10px;
-        }
-
-        .sports_image:hover .sport_overlay {
-            opacity: 1;
-        }
-
-        .sports_icon {
-            color: white;
-            font-size: 20px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-
-    }
-
-}
-
 .ourteam-section {
     .staff_section {
         width: 100%;
@@ -258,28 +200,35 @@
             background-color: #fff;
 
         }
-        .sports_hover{
+
+        .sports_hover {
             border-radius: 10px 10px 0 0;
-            img{
+
+            img {
                 border-radius: 10px 10px 0 0;
             }
         }
+
         .sports_image {
             overflow: hidden;
         }
+
         .sports_hover {
             position: relative;
         }
+
         .sports_image {
             position: relative;
             transition: all .5s ease-in;
             border-radius: 10px;
         }
+
         .card__image {
             display: block;
             width: 100%;
             height: auto;
         }
+
         .sport_overlay {
             position: absolute;
             top: 0;
