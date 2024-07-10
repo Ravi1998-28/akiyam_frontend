@@ -156,9 +156,9 @@ function HomePage() {
 
           <Row>
             <Col md="5">
-              <div className='text-end'>
+              <div className='text-md-end text-center'>
                 <img src={soccer} alt="sport"/>
-                <div className="team_name_result1 d-flex justify-content-end">
+                <div className="team_name_result1 d-flex justify-content-md-end justify-content-center">
                   <div className='result-data text-center position-relative'>
                     <h3 className='font-20 mb-0'>Soccer Champions <span>Since 1975</span></h3>
                   </div>
@@ -174,9 +174,9 @@ function HomePage() {
               </div>
             </Col>
             <Col md="5">
-              <div className='text-start'>
+              <div className='text-md-start text-center'>
                 <img src={club} alt="sport"/>
-                <div className="team_name_result2 d-flex justify-content-start">
+                <div className="team_name_result2 d-flex justify-content-md-start justify-content-center">
                   <div className='result-data text-center position-relative'>
                     <h3 className='font-20 mb-0'>Soccer Champions <span>Since 1975</span></h3>
                   </div>
