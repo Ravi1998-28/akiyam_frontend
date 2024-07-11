@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className='header'>
       <Container>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="md">
           <Navbar.Brand href="/">
             <Image src={logo} className="" alt="Sports Club Logo" />
             SPORTS CLUB
