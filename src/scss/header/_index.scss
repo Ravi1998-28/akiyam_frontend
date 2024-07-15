@@ -30,6 +30,9 @@
         margin-right: 50px;
         @media(max-width:$sm){
             margin-right: 0px;
+                font-size: 21px;
+                height: 62px;
+                gap: 10px;
         }
     }
 
@@ -53,8 +56,12 @@
             justify-content: center;
             align-items: center;
             background-color: $primary;
-            @media(max-width:$md){
-                display: none !important;
+            @media(max-width:$sm){
+                    height: 62px;
+                    width: 45px;
+                    img {
+                        width: 25px !important;
+                    }
             }
 
             img {
