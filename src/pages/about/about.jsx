@@ -39,7 +39,7 @@ function About() {
       </div>
       <div className="py-5 my-4">
         <Container>
-          <Row className="align-items-center">
+          <Row className="align-items-center g-3">
             <Col md="6">
               <div className="sport-img">
                 <img src={Sports} className="img-fluid" alt="sport" />
@@ -76,11 +76,28 @@ function About() {
             <img src={headline} alt="sport" />
           </div>
           <Swiper
-            spaceBetween={30}
-            slidesPerView={3}
+          slidesPerView={1}
+          spaceBetween={10}
+          pagination={{
+            clickable: true,
+          }}
             navigation
-            pagination={{ clickable: true }}
+            modules={[Pagination]}
             loop={true}
+            breakpoints={{
+              567: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+              },
+            }}
           >
             <SwiperSlide>
               <div className="testimonial_section">

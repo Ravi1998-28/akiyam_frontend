@@ -31,7 +31,7 @@ function HomePage() {
       <div className='club-sports'>
         <Container>
           <Row className='g-4'>
-            <Col lg="3" sm="6" xs="12">
+            <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
                   <img src={cycle} className='img-fluid center card__image' alt="sport"/>
@@ -45,7 +45,7 @@ function HomePage() {
                 </div>
               </div>
             </Col>
-            <Col lg="3" sm="6" xs="12">
+            <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
                   <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
@@ -59,7 +59,7 @@ function HomePage() {
                 </div>
               </div>
             </Col>
-            <Col lg="3" sm="6" xs="12">
+            <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
                   <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
@@ -73,7 +73,7 @@ function HomePage() {
                 </div>
               </div>
             </Col>
-            <Col lg="3" sm="6" xs="12">
+            <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
                   <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
@@ -87,7 +87,7 @@ function HomePage() {
                 </div>
               </div>
             </Col>
-            <Col lg="3" sm="6" xs="12">
+            <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
                   <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
@@ -101,7 +101,7 @@ function HomePage() {
                 </div>
               </div>
             </Col>
-            <Col lg="3" sm="6" xs="12">
+            <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
                   <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
@@ -115,7 +115,7 @@ function HomePage() {
                 </div>
               </div>
             </Col>
-            <Col lg="3" sm="6" xs="12">
+            <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
                   <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
@@ -129,7 +129,7 @@ function HomePage() {
                 </div>
               </div>
             </Col>
-            <Col lg="3" sm="6" xs="12">
+            <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
                   <img src={cycle} className='img-fluid center card__image ' alt="sport" />
