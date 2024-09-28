@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import cycle from "../../assets/images/cycle.jpg"
+import cricket from "../../assets/images/cricket.webp"
 import soccer from "../../assets/images/soccer.png"
 import club from "../../assets/images/club.png"
 import football from "../../assets/images/football.jpg"
@@ -9,6 +10,8 @@ import cycling from "../../assets/images/cycling.jpg"
 import staff from "../../assets/images/staff.jpg"
 import headline from "../../assets/images/heading_line.png"
 import OurGallery from '../../component/gallery/OurGallery';
+import wrestling from '../../assets/images/wrestling.webp';
+import volleyball from '../../assets/images/volleyball.webp'
 function HomePage() {
   return (
 
@@ -34,12 +37,54 @@ function HomePage() {
             <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
-                  <img src={cycle} className='img-fluid center card__image' alt="sport"/>
+                  <img src={cricket} className='img-fluid center card__image' alt="sport"/>
+                  <div className='sport_overlay'>
+
+                    <div className="sports_icon">
+                      <p className="subheading">Cricket</p>
+                      {/* <a href="sport_single.html">Cricket</a> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col lg="3" xs="6">
+              <div className='sport_section text-center'>
+                <div className='sports_image sports_hover'>
+                  <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
                       <p className="subheading">cycling</p>
-                      <a href="sport_single.html">cycle</a>
+                      {/* <a href="sport_single.html">cycle</a> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col lg="3" xs="6">
+              <div className='sport_section text-center'>
+                <div className='sports_image sports_hover'>
+                  <img src={wrestling} className='img-fluid center card__image ' alt="sport"/>
+                  <div className='sport_overlay'>
+
+                    <div className="sports_icon">
+                      <p className="subheading">Wrestling</p>
+                      {/* <a href="sport_single.html">wrestling</a> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col lg="3" xs="6">
+              <div className='sport_section text-center'>
+                <div className='sports_image sports_hover'>
+                  <img src={football} className='img-fluid center card__image ' alt="sport"/>
+                  <div className='sport_overlay'>
+
+                    <div className="sports_icon">
+                      <p className="subheading">Football</p>
+                      {/* <a href="sport_single.html">football</a> */}
                     </div>
                   </div>
                 </div>
@@ -62,54 +107,12 @@ function HomePage() {
             <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
-                  <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
+                  <img src={volleyball} className='img-fluid center card__image ' alt="sport"/>
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
-                      <p className="subheading">cycling</p>
-                      <a href="sport_single.html">cycle</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Col>
-            <Col lg="3" xs="6">
-              <div className='sport_section text-center'>
-                <div className='sports_image sports_hover'>
-                  <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
-                  <div className='sport_overlay'>
-
-                    <div className="sports_icon">
-                      <p className="subheading">cycling</p>
-                      <a href="sport_single.html">cycle</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Col>
-            <Col lg="3" xs="6">
-              <div className='sport_section text-center'>
-                <div className='sports_image sports_hover'>
-                  <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
-                  <div className='sport_overlay'>
-
-                    <div className="sports_icon">
-                      <p className="subheading">cycling</p>
-                      <a href="sport_single.html">cycle</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Col>
-            <Col lg="3" xs="6">
-              <div className='sport_section text-center'>
-                <div className='sports_image sports_hover'>
-                  <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
-                  <div className='sport_overlay'>
-
-                    <div className="sports_icon">
-                      <p className="subheading">cycling</p>
-                      <a href="sport_single.html">cycle</a>
+                      <p className="subheading">volley ball</p>
+                      {/* <a href="sport_single.html">c:\Users\prade\Downloads\volleyball</a> */}
                     </div>
                   </div>
                 </div>
@@ -148,7 +151,7 @@ function HomePage() {
       </div>
       {/* latest result section */}
       <Container>
-        <div className='latest-result-wrapper mb-5'>
+        {/* <div className='latest-result-wrapper mb-5'>
           <div className='mb-5'>
             <h2 className='font-xxl-36 font-30 fw-semibold mb-2 text-lightblue'>Latest Result</h2>
             <img src={headline} alt="sport"/>
@@ -184,7 +187,7 @@ function HomePage() {
               </div>
             </Col>
           </Row>
-        </div>
+        </div> */}
         {/* our gallery section */}
         <div className='our-gallery text-center pt-5 mb-5'>
           <OurGallery />
