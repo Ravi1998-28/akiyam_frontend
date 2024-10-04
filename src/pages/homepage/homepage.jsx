@@ -12,6 +12,9 @@ import headline from "../../assets/images/heading_line.png"
 import OurGallery from '../../component/gallery/OurGallery';
 import wrestling from '../../assets/images/wrestling.webp';
 import volleyball from '../../assets/images/volleyball.webp'
+import hockey from "../../assets/images/hockey.webp"
+import badminton from "../../assets/images/badminton.webp"
+// import football from "../../assets/images/football.jpg"
 function HomePage() {
   return (
 
@@ -93,7 +96,7 @@ function HomePage() {
             <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
-                  <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
+                  <img src={hockey} className='img-fluid center card__image ' alt="sport"/>
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
@@ -121,7 +124,7 @@ function HomePage() {
             <Col lg="3" xs="6">
               <div className='sport_section text-center'>
                 <div className='sports_image sports_hover'>
-                  <img src={cycle} className='img-fluid center card__image ' alt="sport"/>
+                  <img src={badminton} className='img-fluid center card__image ' alt="sport"/>
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
