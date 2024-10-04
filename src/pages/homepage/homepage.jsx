@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Container, Row, Col} from 'react-bootstrap';
 import cycle from "../../assets/images/cycle.jpg"
 import cricket from "../../assets/images/cricket.webp"
@@ -55,7 +55,7 @@ function HomePage() {
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
-                      <p className="subheading">cycling</p>
+                      <p className="subheading">Cycling</p>
                       {/* <a href="sport_single.html">cycle</a> */}
                     </div>
                   </div>
@@ -97,8 +97,8 @@ function HomePage() {
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
-                      <p className="subheading">cycling</p>
-                      <a href="sport_single.html">cycle</a>
+                      <p className="subheading">Hockey</p>
+                      <a href="sport_single.html">Hockey</a>
                     </div>
                   </div>
                 </div>
@@ -111,7 +111,7 @@ function HomePage() {
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
-                      <p className="subheading">volley ball</p>
+                      <p className="subheading">Volley ball</p>
                       {/* <a href="sport_single.html">c:\Users\prade\Downloads\volleyball</a> */}
                     </div>
                   </div>
@@ -125,8 +125,8 @@ function HomePage() {
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
-                      <p className="subheading">cycling</p>
-                      <a href="sport_single.html">cycle</a>
+                      <p className="subheading">Badminton</p>
+                      <a href="sport_single.html">badminton</a>
                     </div>
                   </div>
                 </div>
@@ -139,8 +139,8 @@ function HomePage() {
                   <div className='sport_overlay'>
 
                     <div className="sports_icon">
-                      <p className="subheading">cycling</p>
-                      <a href="sport_single.html">cycle</a>
+                      <p className="subheading">Kabaddi</p>
+                      <a href="sport_single.html">Kabaddi</a>
                     </div>
                   </div>
                 </div>
