@@ -15,8 +15,8 @@ const Footer = () => {
                                     SPORTS CLUB
                                 </div>
                                 <div className="">
-                                    <p className='font-16'>2861 Coffman Alley Bowling 42101,Brownwood USA</p>
-                                    <p className='font-16 mb-0'>(+33)325-641-8980 </p>
+                                    <p className='font-16'>Vill. Neerpur Rajput , Ateli Mandi, Mahendragarh, Haryana</p>
+                                    <p className='font-16 mb-0'>(+91)8094210646 </p>
                                     <a href="mailto:651ttnn@payspun.com" className='font-16 text-white text-decoration-none'>651ttnn0n5w@payspun.com</a>
 
                                 </div>
@@ -47,10 +47,10 @@ const Footer = () => {
                         </Col>
                         <Col md="4" sm="6">
                             <div className="footer_section footer_sec3">
-                                <h1 className='font-30 mb-3'>Latest News</h1>
-                                <p className='font-18 mb-2 text-lightblue'>January 25,2019</p>
+                                <h1 className='font-30 mb-3'>Akiyam Club</h1>
+                                <p className='font-18 mb-2 text-lightblue'>January 25,2023</p>
                                 <a href="#" className='font-16 text-decoration-none text-white'>Dolor sit amet,consectetur adipiscing elit. Mauris eleifend.</a>
-                                <p className='font-18 mb-2 mt-3 text-lightblue'>January 25,2019</p>
+                                <p className='font-18 mb-2 mt-3 text-lightblue'>January 25,2023</p>
                                 <a href="#" className='font-16 text-decoration-none text-white'>Dolor sit amet,consectetur adipiscing elit. Mauris eleifend.</a>
                             </div>
                         </Col>

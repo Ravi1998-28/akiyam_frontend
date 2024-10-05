@@ -5,14 +5,14 @@ import ReactCarousel from "../../component/carousels/Carousel";
 import Spinner from "../../component/spinner";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import {  useFormik } from 'formik';
+import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const MarathonRegisterForm = () => {
 
-  const [loading, setLoading] = useState(false); 
+  const [loading, setLoading] = useState(false);
 
   const formik = useFormik({
     initialValues: {
@@ -103,8 +103,9 @@ const MarathonRegisterForm = () => {
 
   return (
     <>
-      <ReactCarousel />
-
+      <div className="carousalDiv">
+        <ReactCarousel />
+      </div>
       <div className="form-container">
         <h2>Marathon Registration 2025</h2>
         <Spinner isLoading={[loading]} />
@@ -135,7 +136,7 @@ const MarathonRegisterForm = () => {
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
             />
-             {formik.touched.fatherName && formik.errors.fatherName ? (
+            {formik.touched.fatherName && formik.errors.fatherName ? (
               <div className="error-message">{formik.errors.fatherName}</div>
             ) : null}
           </div>
@@ -209,7 +210,7 @@ const MarathonRegisterForm = () => {
               value={formik.values.city}
               onChange={formik.handleChange}
             />
-             {formik.touched.city && formik.errors.city ? (
+            {formik.touched.city && formik.errors.city ? (
               <div className="error-message">{formik.errors.city}</div>
             ) : null}
           </div>
@@ -222,7 +223,7 @@ const MarathonRegisterForm = () => {
               value={formik.values.state}
               onChange={formik.handleChange}
             />
-             {formik.touched.state && formik.errors.state ? (
+            {formik.touched.state && formik.errors.state ? (
               <div className="error-message">{formik.errors.state}</div>
             ) : null}
           </div>
@@ -236,11 +237,11 @@ const MarathonRegisterForm = () => {
               onChange={formik.handleChange}
               readOnly
             />
-             {formik.touched.country && formik.errors.country ? (
+            {formik.touched.country && formik.errors.country ? (
               <div className="error-message">{formik.errors.country}</div>
             ) : null}
           </div>
-{/* 
+          {/* 
 
           <h3>Payment Details</h3>
           <div className="form-group">

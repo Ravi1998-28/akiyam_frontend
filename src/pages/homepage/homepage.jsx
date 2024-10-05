@@ -101,7 +101,7 @@ function HomePage() {
 
                     <div className="sports_icon">
                       <p className="subheading">Hockey</p>
-                      <a href="sport_single.html">Hockey</a>
+                      {/* <a href="sport_single.html">Hockey</a> */}
                     </div>
                   </div>
                 </div>
@@ -129,7 +129,7 @@ function HomePage() {
 
                     <div className="sports_icon">
                       <p className="subheading">Badminton</p>
-                      <a href="sport_single.html">badminton</a>
+                      {/* <a href="sport_single.html">badminton</a> */}
                     </div>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ function HomePage() {
 
                     <div className="sports_icon">
                       <p className="subheading">Kabaddi</p>
-                      <a href="sport_single.html">Kabaddi</a>
+                      {/* <a href="sport_single.html">Kabaddi</a> */}
                     </div>
                   </div>
                 </div>
