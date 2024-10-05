@@ -6,6 +6,14 @@ $background-color: #fff;
 $input-border-color: #ddd;
 $input-focus-border-color: $primary-color;
 $box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+@import "../config/variable.module.scss";
+
+.carousalDiv{
+  height: 90vh;
+  @media(max-width:$sm){
+    height: 30vh;
+}
+}
 
 .form-container {
   background-color: $background-color;
@@ -73,6 +81,17 @@ $box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     &:hover {
       background-color: $secondary-color;
     }
+  }
+  .error-message {
+    color: red; /* Text color for error messages */
+    font-size: 0.875rem; /* Font size, adjust as needed */
+    margin-top: 0.25rem; /* Space between the input field and error message */
+    margin-bottom: 0.5rem; /* Space after the error message */
+  }
+  
+  /* Optional: Additional styling for error messages */
+  .error-message::before {
+    content: "⚠️ "; /* Add an icon before the message */
   }
 
   // Mobile responsiveness
